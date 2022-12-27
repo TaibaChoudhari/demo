@@ -1,0 +1,52 @@
+.nav{
+    width: 80%;
+    height: 70px;
+    background: linear-gradient(240deg, darkOrange,gray) ;
+    border-radius: 0 0 8px 8px;
+    margin: auto;
+    font-family: 'Poppins';
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 1px 1px 12px rgb(117, 116, 116);
+    border-top: none;
+}
+.leftNav{
+    display: flex;
+    align-items: center;
+    
+}
+.leftNav img{
+    width: 80px;
+    
+}
+.leftNav h1{
+    font-weight: 400;
+    font-size: 23px;
+    color: darkorange;
+    text-shadow: 1px 1px 5px black;
+    margin-left: 5px;
+    
+}
+.rightNav{
+    display: flex;
+    align-items: center;
+
+}
+.rightNav a{
+    text-decoration: none;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #fff;
+    text-shadow: 1px 1px 3px black;
+    cursor: pointer;
+    transition: 200ms;
+}
+.rightNav .link{
+    margin-right: 10px;
+    border-right:  2px solid rgb(224, 223, 223);
+    padding-right: 10px;
+}
+.rightNav a:active{
+    text-shadow: none
+}
